@@ -1,0 +1,1 @@
+if %HAS_AIDL%=="true" %AIDL% -p%SDK_HOME%/platforms/android-29/framework.aidl -I%SRC% -ogen
